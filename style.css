@@ -1,0 +1,513 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* height: 3500px; */
+}
+
+nav .logo {
+    display: flex;
+}
+nav .logo h2{
+    font-size: 30px;
+    color: #434B8E;
+}
+nav .logo span{
+    font-size: 15px;
+    color: #434B8E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .logo span .tr {
+    font-size: 15px;
+    color: rgb(233, 161, 27);
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around ;
+    
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    border-bottom: 3px solid rgb(255, 232, 21);
+}
+nav .list ul  {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav .list ul a {
+    color: #434B8E;
+    text-decoration: none;
+
+}
+nav .list ul a:hover {
+    color: rgb(233, 161, 27);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(233, 161, 27);
+    transition: ease-in-out 0.25s;
+
+}
+
+.hero .img{
+    background-image: url(park.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    
+}
+.hero .g{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    opacity: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+.hero .con {
+    width: 900px;
+    height: 100px;
+    display: inline-block;
+    /* background-color: rgb(0, 0, 0); */
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .d {
+    width: 100%;
+    height: 600px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .con h1 {
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.hero .con h1 span {
+    color: rgb(233, 161, 27);
+}
+
+.hero .d .con button {
+    text-align: center;
+   background: none;
+   color: white;
+   box-shadow: none;
+   border: 1px solid white  ;
+   height: 50px;
+   width: 110px;
+    margin-left: 450px;
+    margin-top: 30px;
+
+}
+
+.hero .d .con button:hover {
+    background-color: rgb(233, 161, 27);
+    border: none;
+    cursor: pointer;
+    transition: all 0.90s;
+    box-shadow: 0 0 10px black;
+    
+}
+.hero .d .con button a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.about {
+   
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    color: #424242;
+}
+.about .cards span {
+    border: 1px solid #434B8E;
+    width: 40px;
+    display: flex;
+    margin-top: 10px;
+}
+.about .card .img {
+    background-image: url(re.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+}
+.about .card .col {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #434B8E;
+}
+.about .cards {
+    
+    width: 35%;
+    height: 200px;
+}
+
+.about button {
+    width: 150px;
+    height: 30px;
+    background-color: #434B8E;
+    box-shadow: none;
+    border: none;
+    color: white;
+}
+.about button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.295);
+    transition: ease-in-out 0.25s;
+}
+
+
+.services {
+    height: 500px;
+    background-color: #434B8E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    
+}
+.services .card {
+    width: 300px;
+    background-color: white;
+    height: 350px;
+    box-shadow: 0 0 20px -10px #3d3d3d;
+}
+.services .card p {
+    margin-top: 10px;
+}
+.services .card h1 {
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.services .card .img {
+    border-bottom: 2px solid #4183af;
+}
+.services .card.selling .img {
+    background-image: url(keys.gif);
+    width: 60%;
+    height: 180px;
+   margin-left: 50px;
+    background-size: cover;
+}
+.services .card.rental .img {
+    background-image: url(taxi.gif);
+    width: 60%;
+    height: 180px;
+   margin-left: 50px;
+    background-size: cover;
+}
+.services .card.swash .img {
+    background-image: url(car.gif);
+    width:  60%;
+    height: 180px;
+   margin-left: 50px;
+  
+    background-size: cover;
+}
+.services .card button {
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #434B8E;
+    background-color: transparent;
+    color: #434B8E;
+}
+.services .card button:hover {
+    cursor: pointer;
+    background-color: #434B8E;
+    color: #eaeaea;
+    transition: ease-in-out 0.5s;
+    box-shadow: 0 10px 20px -10px #434B8E;
+}
+
+.contact {
+    width: 35%;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    box-shadow: 0 10px 100px 0px #0000000
+    d;
+    
+}
+.contact .form ul li {
+    text-decoration: none;
+    list-style: none;
+
+}
+.contact .form ul li input{
+    width: 350px;
+    height: 25px;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #4183af;
+}
+.contact button {
+    width: 70px;
+    height: 25px;
+    background-color: #434B8E;
+    color: white;
+    border: none;
+    margin-left: 280px;
+}
+.contact button:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 20px -10px #434B8E;
+    transition: ease-in-out 0.5s;
+}
+
+.con-contact .img {
+    background-image: url(Capture.PNG);
+    width: 700px;
+    height: 450px;
+    box-shadow: 0 10px 100px 0px #0000004f;
+    
+}
+.con-contact {
+    display: flex;
+    background-color: #eaeaea;
+    justify-content: space-around;
+    height: 550px;
+    align-items: center;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #434B8E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    
+    .hero .con h1 {
+        font-size: e5px;
+        text-align: left;
+        display: block;
+        width: 600px;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .hero .d .con button {
+        margin-left: 50px;
+        
+    }
+    nav ul li a {
+        display: none;
+        }
+    .hero .img {
+         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    .about .cards p {
+        font-size: 12px;
+    }
+    .services .card {
+        width: 200px;
+        background-color: white;
+        height: 360px;
+        box-shadow: 0 0 20px -10px #3d3d3d;
+    }
+    .services .card h1 {
+        font-size: 20px;
+    }
+    .services .card p {
+        font-size: 12px;
+        margin: 10px;
+    }
+    .services .card.swash .img {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .services .card.card.selling .img {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .services .card.card.rental .img {
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .con-contact {
+        display: block;
+        background-color: #eaeaea;
+        height: 1000px;
+    }
+    .con-contact .contact {
+        width: 80%;
+        margin: 10px auto;
+    }
+    .con-contact  .img {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    nav ul li a {
+    display: none;
+    }
+    .hero .con h1 {
+        font-size: 25px;
+        text-align: left;
+        display: block;
+        width: 400px;
+        text-align: left;
+        padding-left: 50px;
+    }
+    .hero .d .con button {
+        margin-left: 50px;
+        
+    }
+    .about {
+        display: block;
+        background-color: #434B8E;
+        height: 500px;
+        width: 100%;
+        /* border: 1px solid #434B8E; */
+    
+
+    }
+    .about .card .img {
+        width: 100%;
+    }
+    .about .cards {
+        /* background-color: aliceblue; */
+        width: 400px;
+        margin-top: 20px;
+        color: white;
+        padding-left: 20px;
+        
+    }
+    .about .cards p {
+        font-size: 13px;
+        font-weight: lighter;
+        color: #eaeaea;
+
+    }
+    .about .cards span {
+        border: 1px solid white;
+        width: 40px;
+        display: flex;
+        margin-top: 10px;
+    }
+    .about button {
+        width: 150px;
+        height: 30px;
+        box-shadow: none;
+        border: 1px solid #ffffff;
+        color: #f7f7f7;
+        
+    }
+    .about button:hover {
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.521);
+        transition: ease-in-out 0.25s;
+        background-color: #ffffff;
+        color: #434B8E;
+    }
+
+
+    .services .card {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .services  {
+        display: block;
+        background-color: white;
+    }
+    .services .card h1 {
+        font-size: 25px;
+    }
+    .services .card p {
+        font-size: 15px;
+        margin: 10px;
+        padding: 10px;
+    }
+    .services .card.swash .img {
+        background-position: center;
+        background-size: cover;
+        margin-left: 0px;
+        width: 50%;
+        margin-left: 110px;
+    }
+    .services .card.card.selling .img {
+        background-position: center;
+        background-size: cover;
+        margin-left: 0px;
+        width: 50%;
+        margin-left: 110px;
+    }
+    .services .card.card.rental .img {
+        background-position: center;
+        background-size: cover;
+        margin-left: 0px;
+        width: 50%;
+        margin-left: 110px;
+    }
+    .con-contact {
+        margin-top: 700px;
+    }
+
+    }
