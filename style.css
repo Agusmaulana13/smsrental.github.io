@@ -432,6 +432,9 @@ footer {
     .about .card .img {
         width: 100%;
     }
+    .about .col {
+        display: none;
+    }
     .about .cards {
         /* background-color: aliceblue; */
         width: 400px;
@@ -508,6 +511,9 @@ footer {
     }
     .con-contact {
         margin-top: 700px;
+    }
+    .con-contact .form input {
+        width: 100%;
     }
 
     }
