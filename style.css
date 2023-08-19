@@ -435,6 +435,10 @@ footer {
     }
     .about .cards .col {
         display: none;
+
+    }
+    .about .card .col .img {
+        overflow: auto;
     }
     .about .cards {
         /* background-color: aliceblue; */
