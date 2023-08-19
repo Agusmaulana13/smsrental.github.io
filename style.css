@@ -166,7 +166,7 @@ nav .list ul a:hover {
     z-index: -1;
     margin-left: 20px;
     margin-top: 20px;
-    background-color: #434B8E;
+    background-color: #8e4366;
 }
 .about .cards {
     
@@ -262,7 +262,7 @@ nav .list ul a:hover {
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 20px;
-    box-shadow: 0 10px 100px 0px #0000000
+    box-shadow: 0 10px 100px 0px #000000
     d;
     
 }
@@ -432,7 +432,7 @@ footer {
     .about .card .img {
         width: 100%;
     }
-    .about .col {
+    .about .cards .col {
         display: none;
     }
     .about .cards {
